@@ -1,0 +1,86 @@
+/* Additional App-specific styles */
+.profile-info {
+  margin-bottom: 40px;
+}
+
+.profile-info .event-card {
+  max-width: 500px;
+}
+
+.profile-info .event-card h3 {
+  color: #007bff;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.profile-info .event-card p {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+.profile-info .event-card strong {
+  color: #333;
+}
+
+/* Event management buttons */
+.event-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.event-actions .btn {
+  padding: 8px 16px;
+  font-size: 0.9rem;
+}
+
+/* Success message */
+.success {
+  background: #d4edda;
+  color: #155724;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+/* Loading spinner */
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+  font-size: 1.2rem;
+  color: #666;
+}
+
+/* Empty state */
+.empty-state {
+  text-align: center;
+  padding: 60px 20px;
+  color: #666;
+}
+
+.empty-state h3 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+/* Responsive improvements */
+@media (max-width: 480px) {
+  .auth-form {
+    padding: 30px 20px;
+  }
+  
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+  
+  .hero p {
+    font-size: 1rem;
+  }
+  
+  .event-card {
+    padding: 20px;
+  }
+}
